@@ -12,10 +12,10 @@ h2, h3 {
     font-weight: 600;
     cursor: pointer;
 }
-.navbar-dark .navbar-nav .nav-link {
+/* .navbar-dark .navbar-nav .nav-link {
     color:whitesmoke;
     font-weight: 600;
-}
+} */
 
 .nav-link { margin-right: 1em !important;}
 
@@ -36,11 +36,7 @@ h2, h3 {
     background-color: #fff;
     margin-bottom: 5px;
 }
-
-.bg-dark {
-    background-color:#752163!important
-    background-color:wheat!important
-} 
+*/
 
 #carousel-banner{
     background-image: url("https://2018media.idtech.com/images/hero-header/1570838416_social-impact-idtech-header.jpg?aac4b2e124");
@@ -58,8 +54,6 @@ h2, h3 {
 
 .row-content {
     padding : 30px 0;
-    min-height: 200px; 
-    width=100%
 }
 
 .carousel-item p{
@@ -72,7 +66,7 @@ h2, h3 {
 }
 .carousel-caption{
     top: 50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
 }
 
 #home-banner{
@@ -131,7 +125,6 @@ h2, h3 {
 
 
 #courses-banner{
-   
     background-image: url("https://2018media.idtech.com/images/hero-header/courses-page-header.jpg?2bbea7f3a7");
     background-repeat: no- repeat; 
     background-size: cover;
@@ -154,7 +147,8 @@ h2, h3 {
 
 .btn-social-icon{
     color : black;
-    font-size: 32px;
+    background-color: transparent;
+    border:0px;
     padding : 20px;
 }
 
@@ -178,13 +172,11 @@ h2, h3 {
     background-color:#7eb444 ;
  
 }
- .description{
-    top: 50%;
-    transform: translateY(-50%)
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin 0 auto;        
+
+.description{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;        
 } 
 
 .description h1{
@@ -269,19 +261,20 @@ h2, h3 {
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    overflow: hidden
+};
 
 /* for the Login form */
 :root {
-    --input-padding-x: 1.5rem;
-    --input-padding-y: .75rem;
-  }
-  
-  body {
-    /* background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF); */
-    /* background-color:#7eb444 */
-    background-color: whitesmoke;
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+ 
+}
+
+ body {
+    background: whitesmoke;
+    /* background: #007bff; */
+    /* background: linear-gradient(to right, #0062E6, #33AEFF); */
   }
   
   .card-signin {
@@ -300,7 +293,7 @@ h2, h3 {
   .card-signin .card-img-left {
     width: 45%;
     /* Link to your background image using in the property below! */
-    background: scroll center url("https://2018media.idtech.com/images/1572460936_id-tech-online-750x500.jpg?bfe24347c8");
+    background: scroll center url('https://2018media.idtech.com/images/second-image-opl.jpg?2e02830a34');
     background-size: cover;
   }
   
@@ -382,17 +375,17 @@ h2, h3 {
     font-size: 12px;
     color: #777;
   }
-  
-  .google-button {
+/*   
+  .btn-google {
     color: white;
     background-color: #ea4335;
   }
   
-  .facebook-button {
+  .btn-facebook {
     color: white;
     background-color: #3b5998;
-  }
- 
+  } */
+  
 /* whyid */
 #media-block {
     margin:80px 80px;
