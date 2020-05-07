@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <!-- Add a custom font here -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>The Confident Communicator</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md fixed-top">  
+                <a class="navbar-brand" href="index.html"><img src="img/id-logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-4">
+                        <li class="nav-item">
+                            <a class="nav-link" data-value="about" href="index.html">Home</a></li>  
+                        <li class="nav-item">
+                                <a class="nav-link" data-value="about" href="WhyID.html">Why iD?</a></li>  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="online.html">Online 
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="virtual.html"><strong>Virtual Tech Camps</strong> </a></li>
+                                        <li><a class="dropdown-item" href="opl.html"><strong>Online Learning</strong></a></li>  
+                                    </ul>
+                                </li> 
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="courses.html">Courses
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="courses.html"><strong>CODING</strong> </a></li>
+                                    <li><a class="dropdown-item" href="courses.html"><strong>GAME DEV</strong></a></li>
+                                    <li><a class ="dropdown-item" href="courses.html"><strong>ROBOTICS</strong></a></li>
+                                    <li><a class ="dropdown-item" href="courses.html"><strong>CREATIVE</strong></a></li>
+                                    </ul>
+                                </li> 
+                        <li id="nav-item-btn" class="nav-item">
+                            <a id="register-btn" type="submit" href="register.html" class="btn btn-primary">Register</a>
+                        </li>      
+                    </ul> 
+                </div>
+            </nav>
+        </header>
+     
+        <div class="container-fluid px-0" id="courses-banner">
+            <div class="container online-container-center">
+                <div class="row">
+                    <div class = "col-12 m-0 p-0 description text-center">
+                        <h1>The hottest on-campus and virtual tech courses</h1>      
+                        <p>Flex your creativity, collaborate with peers, and build the skills sought after by tech icons like Google, EA, and Tesla. All skill levels welcome!
+                        </p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 sidebar-canvas" id="sidebar">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Filter courses</h3>
+                            <div class="reset-all" id="reset-all">
+                                <a href="">Reset filter</a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Paths</h4>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="all_paths" value="Coding,Game Dev,Robotics,Creative">
+                            <label for="all_paths">All</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="Coding_paths" value="Coding">
+                            <label for="Coding_paths">Coding</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="Game_Dev_paths" value="Game Dev">
+                            <label for="Game_Dev_paths">Game Dev</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="Robotics_paths" value="Robotics">
+                            <label for="Robotics_paths">Robotics</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="Creative_paths" value="Creative">
+                            <label for="Creative_paths">Creative</label>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Ages</h4>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="all_ages" value="7–9,10–12,13–19">
+                            <label for="all_ages">All</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="7–9_ages" value="7–9">
+                            <label for="7–9_ages">7–9</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="10–12_ages" value="10–12">
+                            <label for="10–12_ages">10–12</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="13–19_ages" value="13–19">
+                            <label for="13–19_ages">13–19</label>
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Duration</h4>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="all_duration" value="Weeklong sessions,2-week sessions,3-week session">
+                            <label for="all_duration">All</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="Weeklong_sessions_duration" value="Weeklong sessions">
+                            <label for="Weeklong_sessions_duration">Weeklong sessions</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="2-week_sessions_duration" value="2-week sessions">
+                            <label for="2-week_sessions_duration">2-week sessions</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="3-week_session_duration" value="3-week session">
+                            <label for="3-week_session_duration">3-week session</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Gender</h4>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="all_gender" value="Co-ed,All-girls">
+                            <label for="all_gender">All</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="Co-ed_gender" value="Co-ed">
+                            <label for="Co-ed_gender">Co-ed</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="checkbox" id="All-girls_gender" value="All-girls">
+                            <label for="All-girls_gender">All-girls</label>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-12 col-md-9">
+                    <div class="row  row-content justify-content-around ">
+                        <div class="col-12 col-md-4">
+                            <a href="/courses/virtual-minecraft-world-designer">
+                                <img src="https://2018media.idtech.com/images/min1v-listing.jpg?83b0b8ce7a" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            Text here
+                        </div>
+                    </div>
+                    <div class="row row-content justify-content-around">
+                        <div class="col-12 col-md-4">
+                            <a href="/courses/virtual-scratch-game-design-with-visual-coding">
+                                <img src="https://2018media.idtech.com/images/scrat1v-listing.jpg?20278032fb" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            Next Text here
+                        </div>
+                    </div>
+                    <div class="row  row-content justify-content-around ">
+                        <div class="col-12 col-md-4">
+                            <a href="/courses/virtual-minecraft-world-designer">
+                                <img src="https://2018media.idtech.com/images/min1v-listing.jpg?83b0b8ce7a" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            Text here
+                        </div>
+                    </div>
+                    <div class="row  row-content justify-content-around ">
+                        <div class="col-12 col-md-4">
+                            <a href="/courses/virtual-minecraft-world-designer">
+                                <img src="https://2018media.idtech.com/images/min1v-listing.jpg?83b0b8ce7a" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            Text here
+                        </div>
+                    </div>
+                </div>    
+     
+            </div>
+        </div>
+        <div class="container-fluid px-0" id="carousel-banner">
+            <h2 class="text-center">TESTIMONIALS</h2>
+            <div class = "container-fluid">
+                <div class = "row row-content">
+                    <div class= "col-md-12 mx-auto">
+                        <div id = "homeCarousel" class= "carousel slide" ; data-ride = "carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <p>"It's been a year since Ved started his journey with TCC. And I must confess that it's the best thing that happened to him. Started with public speaking level 1, WSC and now level 2, Ved has come a long way. From being a intelligent but introvert child to confident assertive one.Not just me as a parent but also his teacher's at school have mentioned this change. His writing, presenting, body language and confidence levels have improved substantially. I would like to thank Deepma &amp; Sima for their constant support &amp; encouragement. It wouldn't have been possible without you."</p>                                   
+                                </div>
+                                <div class="carousel-item">
+                                    <p>"Thank You once again for the amazing work you have done with the kids. I can't believe the session is coming to an end so soon! Time indeed files..."</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>"Feel so good and pat myself for enrolling my child for this Leadership Communication class. Wish such a program goes on and on.... there’s so much of learning of a very different kind that can’t be expected in common channels of the day.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>"Please let me know of any other workshops that will happen in Whitefield for which Amogha is eligible for. I will enroll her for sure."</p>
+                                </div>   
+                            </div>
+                            <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon bg-danger"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon bg-danger"></span>
+                                <span class="sr-only">Next</span>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+  
+
+    <footer class = "site-footer">
+            <div class ="container" >
+                    <div class ="row ">
+                        <div class="col text-center">
+                            <a role="button" class="btn btn-link" href="tel:+9188615-36869"><i class="fa fa-phone"></i>  +9188615-36869</a><br />
+                        </div>
+                        <div class="col text-center">    
+                            <a role="button" class="btn btn-link" href="hello@theconfidentcommunicator.in"><i class="fa fa-envelope-o"></i>  hello@theconfidentcommunicator.in</a>
+                        </div>  
+                        <div class="col text-center">    
+                            <a role="button" class="btn btn-link" href="hello@theconfidentcommunicator.in"><i class="fa fa-envelope-o"></i>  Subscribe to our newsletter</a>
+                        </div>           
+                    <div> 
+            </div>      
+            <div class ="container-fluid">                             
+                    <div class="row">                     
+                        <div class="col text-center">
+                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/theconfidentcommunicator/"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/theconficomm/"><i class="fa fa-facebook-square"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/conficomm"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCHfboAyxFcM-LMQOzwtmt4A"><i class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/the-confident-communicator/"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+             
+                    <div class = "row"> 
+                        <div class = "col text-center">
+                            <a role="button" class="btn btn-link copy-right" href="#"><i class="fa fa-copyright"></i>  <strong>THE CONFIDENT COMMUNICATOR 2020.</strong></a>
+                        </div>
+                    </div>
+            </div>    
+                    
+        </footer>     
+        
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>

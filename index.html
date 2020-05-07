@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <!-- Add a custom font here -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>The Confident Communicator</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-md fixed-top">  
+                <a class="navbar-brand" href="index.html"><img src="img/id-logo.png"></a>
+                <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+                    <span class="line"></span> 
+                    <span class="line"></span> 
+                    <span class="line" style="margin-bottom: 0;"></span>              
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-8">
+                        <li class="nav-item">
+                            <a class="nav-link" data-value="about" href="index.html">Home</a></li>  
+                        <li class="nav-item">
+                                <a class="nav-link" data-value="about" href="WhyID.html">Why iD?</a></li>  
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="online.html">Online 
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="virtual.html"><strong>Virtual Tech Camps</strong> </a></li>
+                                <li><a class="dropdown-item" href="opl.html"><strong>Online Learning</strong></a></li>  
+                            </ul>
+                        </li> 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="courses.html">Courses
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="courses.html"><strong>CODING</strong> </a></li>
+                            <li><a class="dropdown-item" href="courses.html"><strong>GAME DEV</strong></a></li>
+                            <li><a class ="dropdown-item" href="courses.html"><strong>ROBOTICS</strong></a></li>
+                            <li><a class ="dropdown-item" href="courses.html"><strong>CREATIVE</strong></a></li>
+                            </ul>
+                        </li> 
+                        <li id="nav-item-btn" class="nav-item">
+                            <a id="register-btn" type="submit" href="register.html" class="btn btn-primary">Register</a>
+                        </li>      
+                    </ul> 
+                </div>
+            </nav>
+        </header>    
+     
+       
+
+        <div class="container-fluid px-0" id="home-banner">
+            <div class = "row">
+                <div class= "col-md-12 m-0 p-0">
+                    <div id = "homeCarousel" class= "carousel slide" ; data-ride = "carousel">
+                        <div class="carousel-inner description text-center">
+                            <div class="carousel-item item-1 active" id="home-banner">
+                                    <style>
+                                                .item-1 {
+                                        
+                                                    background: url('https://2018media.idtech.com/images/hero-header/homepage-hero-image.jpg?36f5689ddf') no-repeat;
+                                                    background-size: cover;
+                                                    background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                }
+                                    </style>
+                                    <style>
+                                                    @media (max-width: 767px) {
+                                                        .item-1 {
+                                                            background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-camps-mobile-header.jpg?31480c7b05') no-repeat 50% 50%;
+                                                            background-size: cover;
+                                                            background-position: center center; 
+                                                            background-repeat: no- repeat; 
+                                                        }
+                                                    }
+                                    </style> 
+                                <div class="carousel-caption">
+                                    <h1>School&#039;s out. Our Virtual Tech Camps are in.</h1>
+                                 <p >
+                                    <span>Facing a school closure? Join our community of 50,000 online students and sharpen your tech skills from home. Ages 7-19.</span>
+                                </p>   
+                                </div>   
+                                                                  
+                            </div>
+                            <div class="carousel-item item-2"id="home-banner">                                      
+                                        <style>
+                                                .item-2 {
+                                                    background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-class.jpg?de0b58cc05') no-repeat;
+                                                    background-size: cover;
+                                                    background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                }
+                                            </style>
+                                                                        <style>
+                                                    @media (max-width: 767px) {
+                                                        .item-2 {
+                                                            background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-class-mobile.jpg?912e44d057') no-repeat 50% 50%;
+                                                            background-size: cover;
+                                                            background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                        }
+                                                    }
+                                            </style>
+                                        <div class="carousel-caption">
+                                            <h1>A fun, collaborative online experience</h1>
+                                            <p>
+                                                <span>Weeklong Tech Camps. Spring sessions going on right now.</span>
+                                            </p> 
+                                        </div>    
+                            </div>
+                            <div class="carousel-item item-3" id="home-banner">                                        
+                                            <style>
+                                                .item-3 {
+                                                    background: url('https://2018media.idtech.com/images/hero-header/instructors-desktop-header.jpg?3f94e349d2') no-repeat;
+                                                    background-size: cover;
+                                                    background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                }
+                                            </style>
+                                            <style>
+                                                    @media (max-width: 767px) {
+                                                        .item-3 {
+                                                            background: url('https://2018media.idtech.com/images/hero-header/instructors-mobile-header.jpg?3858f2a196') no-repeat 50% 50%;
+                                                            background-size: cover;
+                                                            background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                        }
+                                                    }
+                                            </style>
+                                        <div class="carousel-caption">
+                                            <h1>Our rockstar instructors are ready for you</h2>
+                                            <p>
+                                                <span>Whether you want to learn on an elite campus this summer, or right now online from home, the right instructor changes everything.</span>
+                                            </p>
+                                        </div>                
+                                    </div>
+                                    <div class="carousel-item item-4" id="home-banner">                          
+                                            <style>
+                                                .item-4 {                                                 
+                                                    background: url('https://2018media.idtech.com/images/hero-header/roblox-1-desktop-header.jpg?7c3ff588f6') no-repeat;
+                                                    background-size: cover;
+                                                    background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                }
+                                            </style>
+                                                                        <style>
+                                                    @media (max-width: 767px) {
+                                                        .item-4 {
+                                                            background: url('https://2018media.idtech.com/images/hero-header/roblox-1-mobile-header.jpg?be88cb1df4') no-repeat 50% 50%;
+                                                            background-size: cover;
+                                                            background-position: center center; 
+                                                    background-repeat: no- repeat; 
+                                                        }
+                                                    }
+                                                </style>  
+                                        <div class="carousel-caption">
+                                            <h1>Adobe. Python. Epic Games. Nvidia. Roblox.</h2>
+                                            <p >
+                                            <span>Let your creativity shine through with the very best tools and curriculum.</span>
+                                            </p>         
+                                        </div>
+                                    </div>   
+                                </div>
+                                <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+        </div>
+        <div class="container">
+            <div class="row row-content">
+                    <div class="col-sm-12 text-center">
+                        <h2>You get more. A LOT more</h2>
+                        <p >iD Tech is the very best experience built around you—your interests, your skill level, your goals for the future. Each program includes an exclusive package designed for your maximum inspiration and long-term success.</p>
+                        <h3><strong>Your spring and summer tuition includes:</strong></h3>
+                    </div>
+                </div>
+            <div class="row row-content">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://2018media.idtech.com/2019-10/1571253082_getmore01.jpg?d7f0a33ab4" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">First Thing</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam!
+                                    Veniam, dolorum facere?
+                                    Commodi, ut. Et, itaque quam!</p>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://2018media.idtech.com/2019-10/yougetmore02b.jpg?f6041ddb37" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">First Thing</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam!
+                                    Veniam, dolorum facere?
+                                    Commodi, ut. Et, itaque quam!</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://2018media.idtech.com/2019-10/1571360515_yougetmore03.jpg?915f555c01" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">First Thing</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam!
+                                    Veniam, dolorum facere?
+                                    Commodi, ut. Et, itaque quam!</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+            </div>
+   
+            <div class="row row-content">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://2018media.idtech.com/2019-10/yougetmore-pathway.jpg?275e635ef0" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">First Thing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam!
+                                Veniam, dolorum facere?
+                                Commodi, ut. Et, itaque quam!</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://2018media.idtech.com/2020-04/getmore-05.png?9ecb54256b" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">First Thing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam!
+                                Veniam, dolorum facere?
+                                Commodi, ut. Et, itaque quam!</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://2018media.idtech.com/2019-10/home-masterclasses-block.jpg?193eef7b20" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">First Thing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam!
+                                Veniam, dolorum facere?
+                                Commodi, ut. Et, itaque quam!</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ </div>         
+
+    <footer class = "site-footer">
+            <div class ="container-fluid" >
+                    <div class ="row">
+                        <div class="col text-center">
+                            <a role="button" class="btn btn-link" href="tel:1-888-709-8324"><i class="fa fa-phone"></i>  1-888-709-8324</a><br />
+                        </div>
+                        <div class="col text-center">    
+                            <a role="button" class="btn btn-link" href="hello@iDTech.com"><i class="fa fa-envelope-o"></i>  hello@iDTech.com</a>
+                        </div>  
+                        <div class="col text-center">    
+                            <a role="button" class="btn btn-link" href="hello@iDTech.com"><i class="fa fa-envelope-o"></i>  Subscribe to our newsletter</a>
+                        </div>           
+                    <div> 
+            </div>      
+            <div class ="container-fluid">                             
+                    <div class="row">                     
+                        <div class="col text-center">
+                            <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/idtech/"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="https://facebook.com/computercamps"><i class="fa fa-facebook-square"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/idtechcamps"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCxfgxJx4I7krS0mykkN-A9Q"><i class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/the-confident-communicator/"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+             
+                    <div class = "row"> 
+                        <div class = "col text-center">
+                            <a role="button" class="btn btn-link copy-right" href="#"><i class="fa fa-copyright"></i>  <strong>ID Tech</strong></a>
+                        </div>
+                    </div>
+            </div>    
+                    
+        </footer>     
+        
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>
