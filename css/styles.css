@@ -51,6 +51,78 @@ h2, h3 {
     height: 350px;
     padding:50px 0; 
 }
+ 
+.item-1{
+    background: url('https://2018media.idtech.com/images/hero-header/homepage-hero-image.jpg?36f5689ddf') no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no- repeat; 
+}
+                                        
+.item-2{                                    
+  background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-class.jpg?de0b58cc05') no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  background-repeat: no- repeat; 
+  }
+
+                    
+  /* @media (max-width: 767px) {
+      .item-2 {
+          background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-class-mobile.jpg?912e44d057') no-repeat 50% 50%;
+          background-size: cover;
+          background-position: center center; 
+  background-repeat: no- repeat; 
+      }
+  } */
+                                           
+.item-3{                                   
+    background: url('https://2018media.idtech.com/images/hero-header/instructors-desktop-header.jpg?3f94e349d2') no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no- repeat; 
+    }
+
+    .item-4{                                   
+      background: url('https://2018media.idtech.com/images/hero-header/roblox-1-desktop-header.jpg?7c3ff588f6') no-repeat;
+      background-size: cover;
+      background-position: center center; 
+      background-repeat: no- repeat; 
+      }
+    
+ @media (max-width: 767px) {
+    .description h1{
+      font-size: 3rem !important;
+ 
+    }   
+    .description p{
+      display:none !important;
+    } 
+     .item-1 {
+      background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-camps-mobile-header.jpg?31480c7b05') no-repeat 50% 50%;
+      background-size: cover;
+      background-position: center center; 
+      background-repeat: no- repeat; 
+    }
+    .item-2 {
+      background: url('https://2018media.idtech.com/images/hero-header/virtual-tech-class-mobile.jpg?912e44d057') no-repeat 50% 50%;
+      background-size: cover;
+      background-position: center center; 
+      background-repeat: no- repeat; 
+    }
+      .item-3 {
+        background: url('https://2018media.idtech.com/images/hero-header/instructors-mobile-header.jpg?3858f2a196') no-repeat 50% 50%;
+        background-size: cover;
+        background-position: center center; 
+        background-repeat: no- repeat; 
+      }
+      .item-4 {
+        background: url('https://2018media.idtech.com/images/hero-header/roblox-1-mobile-header.jpg?be88cb1df4') no-repeat 50% 50%;
+        background-size: cover;
+        background-position: center center; 
+        background-repeat: no- repeat; 
+      }
+}
 
 .page-row-space-content {
     padding: 100px 0; 
@@ -219,7 +291,9 @@ h2, h3 {
 }
 .site-footer {
     background-color:#7eb444 ;
- 
+    margin:0; 
+    padding: 0;
+    width: 100%; 
 }
 
 .description{
